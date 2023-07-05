@@ -14,6 +14,11 @@
 		682405372A55A80A00BBAEE5 /* Swift_AVKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405362A55A80A00BBAEE5 /* Swift_AVKitTests.swift */; };
 		682405412A55A80A00BBAEE5 /* Swift_AVKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405402A55A80A00BBAEE5 /* Swift_AVKitUITests.swift */; };
 		682405432A55A80A00BBAEE5 /* Swift_AVKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405422A55A80A00BBAEE5 /* Swift_AVKitUITestsLaunchTests.swift */; };
+		682405502A55A97700BBAEE5 /* VideoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6824054F2A55A97700BBAEE5 /* VideoPlayView.swift */; };
+		682405522A55ADE400BBAEE5 /* Big_Buck_Bunny_1080_10s_20MB.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 682405512A55ADE400BBAEE5 /* Big_Buck_Bunny_1080_10s_20MB.mp4 */; };
+		682405542A55AF2800BBAEE5 /* VideoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405532A55AF2800BBAEE5 /* VideoUtility.swift */; };
+		682405562A55AF9B00BBAEE5 /* VideoPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405552A55AF9B00BBAEE5 /* VideoPlayerControlView.swift */; };
+		682405582A55B26000BBAEE5 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682405572A55B26000BBAEE5 /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		6824053C2A55A80A00BBAEE5 /* Swift-AVKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-AVKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682405402A55A80A00BBAEE5 /* Swift_AVKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AVKitUITests.swift; sourceTree = "<group>"; };
 		682405422A55A80A00BBAEE5 /* Swift_AVKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AVKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6824054F2A55A97700BBAEE5 /* VideoPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayView.swift; sourceTree = "<group>"; };
+		682405512A55ADE400BBAEE5 /* Big_Buck_Bunny_1080_10s_20MB.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Big_Buck_Bunny_1080_10s_20MB.mp4; sourceTree = "<group>"; };
+		682405532A55AF2800BBAEE5 /* VideoUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUtility.swift; sourceTree = "<group>"; };
+		682405552A55AF9B00BBAEE5 /* VideoPlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerControlView.swift; sourceTree = "<group>"; };
+		682405572A55B26000BBAEE5 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,15 @@
 		682405242A55A80800BBAEE5 /* Swift-AVKit */ = {
 			isa = PBXGroup;
 			children = (
+				682405512A55ADE400BBAEE5 /* Big_Buck_Bunny_1080_10s_20MB.mp4 */,
 				682405252A55A80800BBAEE5 /* Swift_AVKitApp.swift */,
 				682405272A55A80800BBAEE5 /* ContentView.swift */,
 				682405292A55A80900BBAEE5 /* Assets.xcassets */,
 				6824052B2A55A80900BBAEE5 /* Preview Content */,
+				6824054F2A55A97700BBAEE5 /* VideoPlayView.swift */,
+				682405552A55AF9B00BBAEE5 /* VideoPlayerControlView.swift */,
+				682405572A55B26000BBAEE5 /* VideoPlayerView.swift */,
+				682405532A55AF2800BBAEE5 /* VideoUtility.swift */,
 			);
 			path = "Swift-AVKit";
 			sourceTree = "<group>";
@@ -233,6 +248,7 @@
 			files = (
 				6824052D2A55A80900BBAEE5 /* Preview Assets.xcassets in Resources */,
 				6824052A2A55A80900BBAEE5 /* Assets.xcassets in Resources */,
+				682405522A55ADE400BBAEE5 /* Big_Buck_Bunny_1080_10s_20MB.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682405542A55AF2800BBAEE5 /* VideoUtility.swift in Sources */,
 				682405282A55A80800BBAEE5 /* ContentView.swift in Sources */,
 				682405262A55A80800BBAEE5 /* Swift_AVKitApp.swift in Sources */,
+				682405502A55A97700BBAEE5 /* VideoPlayView.swift in Sources */,
+				682405562A55AF9B00BBAEE5 /* VideoPlayerControlView.swift in Sources */,
+				682405582A55B26000BBAEE5 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

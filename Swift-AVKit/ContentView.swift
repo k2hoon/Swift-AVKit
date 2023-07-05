@@ -9,13 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        VideoPlayView(url: Bundle.main.url(forResource: "Big_Buck_Bunny_1080_10s_20MB", withExtension: "mp4")!)
     }
 }
 
@@ -24,4 +18,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
